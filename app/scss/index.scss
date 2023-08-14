@@ -3,39 +3,8 @@
 @import "global/fonts";
 @import "global/reset";
 @import "global/global";
+@import "components/header";
 
-// Header start
-
-.header {
-  background-color: #fff;
-  height: 160px;
-  text-align: center;
-  padding: 30px 60px;
-  @extend %heebo-500;
-  color: #000;
-  &__inner {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
-}
-
-.menu {
-  &__list {
-    display: flex;
-  }
-  &__list-item + .menu__list-item {
-    padding-left: 35px;
-  }
-  &__list-link {
-    color: #000;
-    font-size: 20px;
-    @extend %heebo-500;
-    line-height: normal;
-  }
-}
-
-// Header end
 
 // main start
 
@@ -192,35 +161,7 @@
 
 // main start
 
-// footer start
 
-.footer {
-  background-color: #fff;
-  height: 182px;
-  &__inner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-  &__inner {
-    display: flex;
-    flex-direction: column;
-  }
-  &__items-img {
-    margin-top: 51px;
-    margin-bottom: 25px;
-    display: flex;
-  }
-  &__item + .footer__item {
-    margin-left: 35px;
-  }
-  &__copy {
-    font-size: 14px;
-    color: #21243d;
-  }
-}
 
-// footer end
-
+@import "components/footer";
 @import "global/media";

@@ -1,0 +1,30 @@
+// footer start
+
+.footer {
+  background-color: #fff;
+  min-height: 182px;
+  &__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  &__inner {
+    display: flex;
+    flex-direction: column;
+  }
+  &__items-img {
+    margin-top: 51px;
+    margin-bottom: 25px;
+    display: flex;
+  }
+  &__item + .footer__item {
+    margin-left: 35px;
+  }
+  &__copy {
+    font-size: 14px;
+    color: #21243d;
+  }
+}
+
+// footer end
