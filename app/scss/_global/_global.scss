@@ -7,7 +7,7 @@ body {
   color: $default;
   font-size: 16px;
   line-height: 26px;
-  @extend %roboto-500;
+  @extend %heebo-400;
   display: flex;
   flex-direction: column;
 }
@@ -17,7 +17,7 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1170px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 10px;
 }

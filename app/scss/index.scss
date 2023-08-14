@@ -5,9 +5,24 @@
 @import "_global/global";
 
 .header{
-  background-color: green;
-  height: 100px;
+  background-color: #fff;
+  height: 160px;
   text-align: center;
+  padding: 30px 60px;
+  &__inner {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+
+.menu{
+  &__list{
+    display: flex;
+  }
+  &__list-item + .menu__list-item {
+    padding-left: 35px;
+  }
 }
 
 .main{
