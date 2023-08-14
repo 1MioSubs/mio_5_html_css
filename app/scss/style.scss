@@ -1,8 +1,8 @@
-@import "_global/libs";
-@import "_global/vars";
-@import "_global/fonts";
-@import "_global/reset";
-@import "_global/global";
+@import "global/libs";
+@import "global/vars";
+@import "global/fonts";
+@import "global/reset";
+@import "global/global";
 
 .header{
   background-color: green;
@@ -20,4 +20,4 @@
   text-align: center;
 }
 
-@import "_global/media";
+@import "global/media";

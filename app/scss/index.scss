@@ -1,14 +1,18 @@
-@import "_global/libs";
-@import "_global/vars";
-@import "_global/fonts";
-@import "_global/reset";
-@import "_global/global";
+@import "global/libs";
+@import "global/vars";
+@import "global/fonts";
+@import "global/reset";
+@import "global/global";
+
+// Header start
 
 .header{
   background-color: #fff;
   height: 160px;
   text-align: center;
   padding: 30px 60px;
+  @extend %heebo-500;
+  color: #000;
   &__inner {
     display: flex;
     justify-content: flex-end;
@@ -23,16 +27,54 @@
   &__list-item + .menu__list-item {
     padding-left: 35px;
   }
+  &__list-link{
+    color: #000;
+    font-size: 20px;
+    @extend %heebo-500;
+    line-height: normal;
+  }
 }
+
+// Header end
+
+// main start
 
 .main{
   text-align: center;
 }
 
+// main start
+
+// footer start
+
 .footer{
-  background-color: orange;
-  height: 100px;
-  text-align: center;
+  background-color: #fff;
+  height: 182px;
+  &__inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  &__inner{
+    display: flex;
+    flex-direction: column;
+  }
+  &__items-img{
+    margin-top: 51px;
+    margin-bottom: 25px;
+    display: flex;
+  }
+  &__item + .footer__item{
+    margin-left: 35px;
+  }
+  &__copy{
+    font-size: 14px;
+    color: #21243D
+  }
+
 }
 
-@import "_global/media";
+// footer end
+
+@import "global/media";
