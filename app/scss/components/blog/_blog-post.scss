@@ -1,0 +1,44 @@
+.recent {
+  background-color: $default;
+  &__title {
+    @extend %heebo-700;
+    font-size: 44px;
+    font-style: normal;
+    line-height: 60px;
+    margin-bottom: 55px;
+  }
+  &__info {
+    display: block;
+  }
+  &__item {
+    padding: 0;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #E0E0E0;
+    &-title {
+      @extend %heebo-500;
+      font-size: 30px;
+      font-style: normal;
+      line-height: normal;
+      margin-bottom: 16px;
+    }
+    &-tegs {
+      color: #8695a4;
+      @extend %heebo-400;
+      font-size: 20px;
+      font-style: normal;
+      line-height: normal;
+    }
+    &-date {
+      padding-right: 20px;
+    }
+    &-info{
+      margin-bottom: 15px;
+    }
+    &-text{
+      margin-bottom: 30px;
+    }
+    &-link{
+      color: $maincolor;
+    }
+  }
+}

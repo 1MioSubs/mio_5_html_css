@@ -1,0 +1,45 @@
+.works {
+  &__inner {
+    padding: 15px 0 83px;
+  }
+  &__title {
+    @extend %heebo-400;
+    font-size: 22px;
+    font-style: normal;
+    line-height: 60px;
+  }
+  &__item {
+    padding: 31px 0 35px;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    &-box {
+      padding-left: 18px;
+    }
+    &-title {
+      @extend %heebo-700;
+      font-size: 30px;
+      font-style: normal;
+      line-height: normal;
+    }
+    &-date {
+      @extend %heebo-900;
+      font-size: 18px;
+      font-style: normal;
+      color: #fff;
+      line-height: 60px;
+      width: 62px;
+      height: 25px;
+      padding: 0 10px;
+      margin-right: 26px;
+      border-radius: 16px;
+      background: #142850;
+    }
+    &-tegs {
+      color: #8695a4;
+      @extend %heebo-400;
+      font-size: 20px;
+      font-style: normal;
+      line-height: normal;
+    }
+  }
+}

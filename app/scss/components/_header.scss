@@ -2,7 +2,7 @@
 
 .header {
   background-color: #fff;
-  height: 160px;
+  min-height: 160px;
   text-align: center;
   padding: 30px 60px;
   @extend %heebo-500;

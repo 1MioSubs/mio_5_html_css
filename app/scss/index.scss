@@ -10,152 +10,19 @@
 
 // about start
 
-.about {
-  &__inner {
-    display: flex;
-    padding: 50px 0 71px;
-  }
-  &__info {
-    width: 497px;
-    padding-top: 20px;
-  }
-  &__title {
-    font-size: 44px;
-    @extend %heebo-700;
-    line-height: 60px;
-    color: $maincolor;
-    margin-bottom: 40px;
-  }
-  &__text {
-    margin-bottom: 38px;
-  }
-  &__btn {
-    width: 208px;
-    height: 47px;
-    border: none;
-    background-color: $btn;
-    color: $default;
-    font-size: 20px;
-    @extend %heebo-500;
-  }
-  &__img {
-    border-radius: 50%;
-    margin-left: auto;
-    width: 243px;
-    height: 243px;
-    box-shadow: -5px 13px 0px 0px #EDF7FA;
-  }
-}
+@import "components/index/about";
 
 // about end
 
 // recent start
 
-.recent {
-  background-color: $accent;
-  &__inner {
-    padding: 7px 0 32px;
-  }
-  &__top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  &__title {
-    @extend %heebo-400;
-    font-size: 22px;
-    font-style: normal;
-    line-height: 60px;
-  }
-  &__link {
-    color: #00a8cc;
-    text-align: right;
-    @extend %heebo-400;
-    font-size: 16px;
-    font-style: normal;
-    line-height: normal;
-  }
-  &__info {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-  }
-  &__item {
-    background-color: $default;
-    padding: 24px;
-    &-title {
-      @extend %heebo-700;
-      font-size: 26px;
-      font-style: normal;
-      line-height: normal;
-      margin-bottom: 25px;
-    }
-    &-info {
-      @extend %heebo-400;
-      font-size: 18px;
-      font-style: normal;
-      line-height: normal;
-      margin-bottom: 20px;
-    }
-    &-date {
-      padding-right: 20px;
-      border-right: 1px solid $maincolor;
-    }
-    &-tegs {
-      padding-left: 20px;
-    }
-  }
-}
+@import "components/index/recent";
 
 // recent end
 
 // works start
 
-.works {
-  &__inner {
-    padding: 15px 0 83px;
-  }
-  &__title {
-    @extend %heebo-400;
-    font-size: 22px;
-    font-style: normal;
-    line-height: 60px;
-  }
-  &__item {
-    padding: 31px 0 35px;
-    border-bottom: 1px solid #e0e0e0;
-    display: flex;
-    &-box {
-      padding-left: 18px;
-    }
-    &-title {
-      @extend %heebo-700;
-      font-size: 30px;
-      font-style: normal;
-      line-height: normal;
-    }
-    &-date {
-      @extend %heebo-900;
-      font-size: 18px;
-      font-style: normal;
-      color: #fff;
-      line-height: 60px;
-      width: 62px;
-      height: 25px;
-      padding: 0 10px;
-      margin-right: 26px;
-      border-radius: 16px;
-      background: #142850;
-    }
-    &-tegs {
-      color: #8695a4;
-      @extend %heebo-400;
-      font-size: 20px;
-      font-style: normal;
-      line-height: normal;
-    }
-  }
-}
+@import "components/index/works";
 
 // works end
 
