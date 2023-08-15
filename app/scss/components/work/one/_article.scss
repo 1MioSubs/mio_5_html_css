@@ -54,3 +54,43 @@
     }
   }
 }
+
+@media (max-width: 375px) {
+  .article {
+    &__inner {
+      padding: 32px 18px 30px;
+    }
+    &__title {
+      font-size: 30px;
+      line-height: 40px;
+      margin-bottom: 24px;
+    }
+    &__info-box {
+      padding: 0;
+      align-items: start;
+      margin-bottom: 24px;
+    }
+    &__date {
+      margin-right: 15px;
+      font-size: 18px;
+    }
+    &__tegs {
+      font-size: 18px;
+    }
+    p {
+      margin-bottom: 23px;
+    }
+    img {
+      min-width: 339px;
+      min-height: 256px;
+    }
+    h2 {
+      font-size: 26px;
+      line-height: 60px;
+    }
+    h3 {
+      font-size: 20px;
+      line-height: 60px;
+    }
+  }
+}

@@ -9,3 +9,38 @@
     padding: 43px 0 48px;
   }
 }
+
+@media (max-width: 375px) {
+  .works {
+    margin-bottom: 0;
+    &__inner{
+      padding: 0 18px;
+    }
+    &__items{
+      padding: 0;
+    }
+    &__item{
+      padding: 0;
+      margin-bottom: 17px;
+      &-title{
+        font-size: 24px;
+        line-height: 30px;
+      }
+      &-date{
+        font-size: 16px;
+        margin-right: 22px;
+      }
+      &-tegs{
+        font-size: 16px;
+      }
+      &-text{
+        padding-bottom: 17px;
+      }
+    }
+    &__title{
+      font-size: 30px;
+      margin-bottom: 13px;
+      line-height: 60px;
+    }
+  }
+}

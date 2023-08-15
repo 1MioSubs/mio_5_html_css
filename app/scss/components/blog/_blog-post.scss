@@ -7,9 +7,7 @@
     line-height: 60px;
     margin-bottom: 55px;
   }
-  &__info {
-    display: block;
-  }
+  
   &__item {
     padding: 0;
     margin-bottom: 30px;
@@ -40,5 +38,43 @@
     &-link{
       color: $maincolor;
     }
+  }
+}
+
+@media (max-width: 375px) {
+  .recent{
+    &__inner{
+      padding: 24px 18px 60px;
+    }
+    &__title {
+      font-size: 30px;
+      margin-bottom: 18px;
+    }
+    &__info{
+      padding: 0;
+    }
+    &__item{
+      margin-bottom: 0;
+    }
+    &__item {
+      &-title {
+        font-size: 26px;
+        margin-bottom: 5px;
+      }
+      &-tegs {
+        font-size: 16px;
+        padding-left: 14px;
+      }
+      &-date {
+        padding-right: 14px;
+      }
+      &-info{
+        margin-bottom: 17px;
+      }
+      &-text{
+        margin-bottom: 24px;
+      }
+    }
+
   }
 }
