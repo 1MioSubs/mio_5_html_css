@@ -1,0 +1,56 @@
+.article {
+  &__title {
+    max-width: 506px;
+    @extend %heebo-700;
+    font-size: 34px;
+    font-style: normal;
+    line-height: normal;
+  }
+  &__info-box {
+    display: flex;
+    align-items: center;
+    padding: 32px 0 30px;
+  }
+  &__date {
+    @extend %heebo-900;
+    font-size: 18px;
+    font-style: normal;
+    color: #fff;
+    line-height: normal;
+    width: 62px;
+    height: 25px;
+    padding: 0 10px;
+    margin-right: 26px;
+    border-radius: 16px;
+    background: $btn;
+  }
+  &__tegs {
+    @extend %heebo-400;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  &__content {
+    p {
+      margin-bottom: 30px;
+    }
+    h2 {
+      @extend %heebo-500;
+      font-size: 30px;
+      font-style: normal;
+      line-height: 60px;
+    }
+    h3 {
+      @extend %heebo-500;
+      font-size: 24px;
+      font-style: normal;
+      line-height: 60px;
+    }
+    img {
+      min-width: 680px;
+      min-height: 460px;
+      margin-bottom: 30px;
+    }
+  }
+}
