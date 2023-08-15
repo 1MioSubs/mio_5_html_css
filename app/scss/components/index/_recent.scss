@@ -53,3 +53,38 @@
     }
   }
 }
+
+@media (max-width: 375px) {
+  .recent {
+    &__inner {
+      padding: 0;
+    }
+    &__title {
+      font-size: 18px;
+    }
+    &__link {
+      display: none;
+    }
+    &__top {
+      justify-content: center;
+      align-items: center;
+    }
+    &__info {
+      flex-direction: column;
+      gap: 17px;
+      padding: 0 10px 38px;
+    }
+    &__item {
+      padding: 20px;
+      &-title {
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 12px;
+      }
+      &-info {
+        font-size: 16px;
+        margin-bottom: 18px;
+      }
+    }
+  }
+}
