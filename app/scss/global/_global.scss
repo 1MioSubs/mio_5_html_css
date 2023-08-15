@@ -26,3 +26,11 @@ body {
   max-width: 854px;
   margin: 0 auto;
 }
+
+a{
+  color: $maincolor;
+  transition: all .3s;
+  &:hover{
+    color: $btn;
+  }
+}

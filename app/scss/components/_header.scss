@@ -26,6 +26,10 @@
     font-size: 20px;
     @extend %heebo-500;
     line-height: normal;
+    transition: all .3s;
+    &:hover{
+      color: $btn;
+    }
   }
 }
 
